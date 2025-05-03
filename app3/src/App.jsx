@@ -7,6 +7,7 @@ import StateBasics from './componets/StateBasics'
 import Counter from './componets/Counter'
 import New from './componets/New'
 import { Route, Routes } from 'react-router-dom'
+import Api from './componets/Api'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,9 +19,10 @@ function App() {
       <Route path='/' element={<Counter/>}/>
       <Route path='/t' element={<StateBasics/>}/>
       <Route path='/g' element={<New/>}/>
+ <Route path='/Api' element={<Api/>}/>
 
      </Routes>
- 
+ {/* <Api/> */}
 
    </>
   )

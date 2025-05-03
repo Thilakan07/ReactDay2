@@ -25,13 +25,16 @@ const Navbar = () => {
             News
           </Typography>
           <Link to="/">
-          <Button color="inherit">Login</Button>
+          <Button sx={{color:'white'}}>Login</Button>
           </Link>
           <Link to="/t">
-          <Button color="inherit">next</Button>
+          <Button sx={{color:'black'}}>next</Button>
           </Link>
           <Link to="/g">
-          <Button color="inherit">prev</Button>
+          <Button sx={{color:'yellow'}}>prev</Button>
+          </Link>
+          <Link to="/Api">
+          <Button sx={{color:'white'}}>Api</Button>
           </Link>
 
 
