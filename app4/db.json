@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "roll_no": "5",
+      "name": "sam",
+      "course": "bca",
+      "grade": "p",
+      "id": "423b"
+    },
+    {
+      "id": "7bb3",
+      "roll_no": "1",
+      "name": "ram",
+      "course": "bsccs",
+      "grade": "A"
+    },
+    {
+      "roll_no": "5",
+      "name": "sample",
+      "course": "bsc",
+      "grade": "A",
+      "id": "6d50"
+    }
+  ]
+}
